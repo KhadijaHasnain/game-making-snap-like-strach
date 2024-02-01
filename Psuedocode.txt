@@ -1,0 +1,36 @@
+This is a 2 Player Quiz Game. where each person has to answer a set of questions and if answered correctly then 1 point is awarded 
+to that person, after a series of questions the person that gives the most correct answers wins. 
+
+-- Initialize Scores
+Player1Score = 0
+Player2Score = 0
+
+-- Repeat for Each Question
+for each question in quiz:
+    -- Ask Question
+
+    -- Receive Answers
+    wait for Player1Answer
+    wait for Player2Answer
+
+    -- Evaluate Answers
+    if Player1Answer is correct:
+        increment Player1Score
+
+    if Player2Answer is correct:
+        increment Player2Score
+
+    -- Display Scores
+
+-- Declare Winner
+if Player1Score > Player2Score:
+    display "Player 1 Wins!"
+else if Player2Score > Player1Score:
+    display "Player 2 Wins!"
+else:
+    display "It's a Tie!"
+
+-- End Game
+
+
+Thank you.
